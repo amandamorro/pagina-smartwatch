@@ -1,0 +1,151 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #c2185b; /* rosa mais escuro */
+  padding: 15px;
+  text-align: center;
+}
+
+/* TÍTULO */
+.titulo {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #c2185b;
+  color: white;
+  padding: 10px 15px; /* um pouco menor */
+}
+
+/* TEXTO ESQUERDA */
+.footer-left p {
+  margin: 2px 0; /* reduz espaço entre linhas */
+  font-size: 14px; /* menor e proporcional */
+}
+
+/* FUNDO DA PÁGINA */
+body {
+  background-color: #8e1244; /* rosa mais escuro que a navbar */
+}
+
+/* CAIXA DE TEXTO */
+.box-texto {
+  background-color: #c2185b;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* IMAGENS (AGORA SEPARADAS VISUALMENTE) */
+.img-grid {
+  max-width: 280px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* CORES BASE */
+:root {
+  --rosa: #c2185b;   /* navbar/footer */
+  --fundo: #8e1244;  /* fundo da página */
+}
+
+/* BODY */
+body {
+  background-color: var(--fundo);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* CONTAINER CENTRALIZADO */
+.container {
+  max-width: 800px;
+  margin: 50px auto; /* centraliza na página */
+  text-align: center;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* CONTAINER MAIS LARGO */
+.container {
+  max-width: 1200px; /* aumentei */
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* COLUNAS */
+.col {
+  width: 50%;
+  padding: 30px; /* mais espaço interno */
+  box-sizing: border-box;
+}
+
+/* IMAGENS MENORES */
+/* IMAGENS OCUPANDO A COLUNA TODA */
+.col img {
+  width: 100%;       /* ocupa toda a largura da coluna */
+  height: 100%;      /* preenche altura */
+  object-fit: cover; /* corta sem deformar */
+  border-radius: 10px;
+}
+
+/* CORES (mantém) */
+.col-rosa {
+  background-color: #c2185b;
+  color: white;
+}
+
+.col-fundo {
+  background-color: #8e1244;
+  color: white;
+}
+
+/* QUEBRA */
+.break {
+  width: 100%;
+}
+
+/* TÍTULOS */
+.col h4 {
+  font-size: 26px; /* maior e mais destacado */
+  margin-bottom: 15px;
+}
+
+/* LISTA */
+.col ul {
+  font-size: 18px; /* aumenta o corpo do texto */
+  line-height: 1.6; /* melhora leitura */
+  padding-left: 20px;
+}
+
+/* ITENS */
+.col li {
+  margin-bottom: 8px;
+}
